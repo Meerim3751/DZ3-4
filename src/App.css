@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.Item {
+  display: block;
+  
+
+}
+.Item img {
+  padding-top: 40px;
+  width: 330px;
+  height: 300px;
+}
+.Item h3 {
+  font-size: 30px;
+}
+.Item p {
+  font-size: 15px;
+}
+.Item b {
+  font-size: 20px;
+}
+.Items {
+  padding-top: 30px;
+  padding-bottom: 130px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap ;
+}
